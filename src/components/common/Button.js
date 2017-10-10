@@ -17,6 +17,7 @@ const styles = {
   buttonStyle: { 
     flex: 1,
     alignSelf: 'stretch',
+    height: 50,
     backgroundColor: '#fff',
     borderRadius: 5,
     borderWidth: 1,

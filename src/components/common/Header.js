@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 const Header = (props) => {
   return (
@@ -9,7 +9,7 @@ const Header = (props) => {
   );
 };
 
-const styles = {
+const styles = StyleSheet.create({
   viewStyle: {
     backgroundColor: '#F8F8F8',
     display: 'flex',
@@ -27,6 +27,6 @@ const styles = {
   textStyle: {
     fontSize: 20
   }
-};
+});
 
 export { Header };
